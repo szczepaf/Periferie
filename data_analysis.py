@@ -44,6 +44,43 @@ def distance_vote_linear_models(csv_filename: str = "db/combined_data.csv") -> N
     df["distance"] = df[["Praha", "Brno"]].min(axis=1)
     df = df[df["distance"] > 0]
 
+    pirates_var = df["P16_PROC"].dropna().var()
+    ano_var = df["P22_PROC"].dropna().var()
+    print(f"Variance of Piráti vote shares (P16_PROC): {pirates_var:.4f}")
+    print(f"Variance of ANO vote shares (P22_PROC): {ano_var:.4f}")
+
+    # now std deviation
+    pirates_std = df["P16_PROC"].dropna().std()
+    ano_std = df["P22_PROC"].dropna().std()
+    print(f"Standard deviation of Piráti vote shares (P16_PROC): {pirates_std:.4f}")
+    print(f"Standard deviation of ANO vote shares (P22_PROC): {ano_std:.4f}")
+
+    # ANO: two lowest and two highest scoring cities
+    ano_df = (
+        df[["city_name", "P22_PROC"]]
+        .dropna()
+        .sort_values("P22_PROC")
+    )
+
+    # the same for pirates
+    pirates_df = (
+        df[["city_name", "P16_PROC"]]
+        .dropna()
+        .sort_values("P16_PROC")
+    )
+    print("Piráti – two lowest scoring cities:")
+    print(pirates_df.head(2).to_string(index=False))
+
+    print("Piráti – two highest scoring cities:")
+    print(pirates_df.tail(2).to_string(index=False))
+
+    print("\nANO – two lowest scoring cities:")
+    print(ano_df.head(2).to_string(index=False))
+
+    print("ANO – two highest scoring cities:")
+    print(ano_df.tail(2).to_string(index=False))
+
+    input()
     # Mapování stran na sloupce s procenty v datech
     party_columns = {
         "Piráti": "P16_PROC",
@@ -84,14 +121,13 @@ def distance_vote_linear_models(csv_filename: str = "db/combined_data.csv") -> N
         mse = mean_squared_error(y_test, y_pred_test)
         rmse = np.sqrt(mse)  # <- fix: no 'squared' keyword
 
-        print(f"\n=== {party_name} ({col}) ===")
-        print(f"slope (β1):          {model.coef_[0]:.4f} p. b. / minuta")
-        print(f"intercept (β0):      {model.intercept_: .4f}")
-        print(f"R² (train):          {r2_train:.4f}")
-        print(f"R² (test):           {r2_test:.4f}")
-        print(f"MAE (test):          {mae:.4f}")
-        print(f"RMSE (test):         {rmse:.4f}")
-
+        print(f"\n      === {party_name} ===")
+        print(f"  slope (β1):          {100 * model.coef_[0]:.4f} procentních bodů / 100 minut")
+        print(f"  intercept (β0):      {model.intercept_: .4f}")
+        print(f"  R2 (train):          {r2_train:.4f}")
+        print(f"  R2 (test):           {r2_test:.4f}")
+        print(f"  MAE (test):          {mae:.4f}")
+        print(f"  RMSE (test):         {rmse:.4f}")
         # Data pro vizualizaci (train/test odlišíme barvou)
         plot_train = pd.DataFrame(
             {"distance": X_train.ravel(), "vote_share": y_train, "set": "Train"}
@@ -125,15 +161,16 @@ def distance_vote_linear_models(csv_filename: str = "db/combined_data.csv") -> N
             label="Fitted line",
         )
 
-        plt.xlabel("Vzdálenost k nejbližšímu krajskému městu (minuty)")
+        plt.xlabel("Vzdálenost k nejbližšímu centru (minuty)")
         plt.ylabel("Volební výsledek strany (v %)")
-        plt.title(f"Lineární regrese: {party_name} vs. vzdálenost")
+        plt.title(f"Lineární regrese: výsledek strany {party_name} vs. vzdálenost")
         plt.legend()
         plt.tight_layout()
 
         out_path = plots_dir / f"linreg_{party_name.lower()}_vs_distance.png"
         plt.savefig(out_path, dpi=300, bbox_inches="tight")
         plt.show()
+
 
 
 def p6_vs_distance_scatter(csv_filename: str = "db/combined_data.csv") -> None:
@@ -524,12 +561,23 @@ def average_distance_ranking(csv_filename: str = "db/combined_data.csv") -> None
     plt.show()
     
 if __name__ == "__main__":
-    distance_vote_linear_models()
+    # distance_vote_linear_models()
     # election_percentage_histogram()
     #distance_to_centers()
     #average_distance_ranking()
     # analyze_party25_6_vs_distance()
+    # read the election dataset
     
+    df = pd.read_csv("db/combined_data.csv", encoding="utf-8")
+    # get the total population in cities with poolation > 10000
+    total_pop = df[df["population"] > 10000]["population"].sum()
+    print(f"Total population in cities with population > 10000: {total_pop}")
+
+    # print the total number of votes for party P6 in the cities with population > 10000
+    total_votes_p6 = df[df["population"] > 10000]["P6_HLASY"].sum()
+    # count it relatively to the total population
+    relative_votes_p6 = total_votes_p6 / total_pop * 100
+    print(f"Total votes for party P6 in cities with population > 10000: {total_votes_p6} ({relative_votes_p6:.2f} % of population)")
 
 
     

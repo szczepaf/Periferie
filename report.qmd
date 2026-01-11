@@ -1,32 +1,40 @@
 ---
-title: "Peripheries"
-format: html
+title: "Periferie"
+author: "František Szczepanik"
+format:
+  html:
+    toc: true
+    toc-title: "Cíl"
+    toc-location: left
+    toc-depth: 3
+    number-sections: false
+    smooth-scroll: true
 bibliography: references.bib
 ---
 
 ## Úvod
 
-Nic se tady neděje, zastavil se čas,
-Nekonečná smyčka, co dokáže zlomit vaz.
-Nuda na tebe číhá za každým rohem,
-Benzínce s non-stop provozem řekni rovnou sbohem…
+*Nic se tady neděje, zastavil se čas*
 
-Tak rappuje o své rodné vsi Žihle interpret Skeli a pojmenovává tím rozšířený sentiment vystihující život mimo velká města. Tato práce se zaobírá právě místy, kde se zdánlivě zastavil čas - konkrétně bude pojednávat o malých českých městech v periferiích.
+*nekonečná smyčka, co dokáže zlomit vaz*
 
-Periferie označuje oblast vzdálenou centru, definice periferie v sociologickém slovníku také hovoří o "přechodu mezi městem a venkovem" [@sociologicka_encyklopedie]. Ve veřejném diskurzu se o periferii často mluví v kontextu různých znevýhodnění a deprivací, poukazuje se na ztížené životní podmínky obyvatel, horší ekonomickou situaci, špatný přístup ke zdravotnickým službám a vzdělání a s tím spojený odchod mladých lidí do center.
+*nuda na tebe číhá za každým rohem*
 
-V Českém kontextu se v souvislosti s tímto pojmem často hovoří o příhraniční oblasti zvané Sudety. Zavedeným pojmem je rovněž termín "vnitřní periferie", který označuje oblasti na hranicích jednotlivých krajů, které jsou vzdálené krajským městům a často vykazují výše popsané fenomény spojované s periferií. Jedná se tedy o jakési "vnitřní Sudety" [@vnitrni_periferie].
+*benzínce s non-stop provozem řekni rovnou sbohem*
 
-I v souvislosti s letošními volbami do Poslanecké sněmovně se
+Tak rappuje o své rodné vsi Žihle interpret Skeli a pojmenovává tím rozšířený sentiment vykreslující život mimo velká města. Tento report se zaměřuje právě na místa, kde se zdánlivě zastavil čas - konkrétně bude pojednávat o menších českých městech v periferiích.
 
-řada analýz [@babis1, @seznam] zabývala otázkou, zda periferie vykazují jisté společné znaky co se týče voličským preferencí. Jedna z datových analýz iRozhlasu například popisuje fenomén, kdy hnutí ANO v řadě oblastech vnitřní periferie výrazně posílilo, zatímco (možná poněkud překvapivě) hnutí stačilo naopak v těchto oblastech oslabilo [@babis1].
+Periferie obecně označuje oblast na okrajir vzdálenou centru. V sociologickém slovníku jedna z definic periferie hovoří o "přechodu mezi městem a venkovem" [@sociologicka_encyklopedie]. O periferii se ve veřejném diskurzu často mluví v kontextu různých znevýhodnění, deprivací a ztížených životní podmínek obyvatel. S tím souvisí nižší ekonomická vyspělost, špatný přístup ke zdravotnickým službám a vzdělání a z toho plynoucí odchod mladých lidí do větších center.
 
-XX
-Motivován těmito okolnostmi jsem se rozhodl na otázku periferií a jejich sociálních znaků podívat optikou jednoho konkrétního parametru, a to sice dostupnosti vlakovou dopravou. Vlaková síť v Česku je DŮLEŽITÝ XXX ZDROJ, PROTO BYLA VYBRÁNA JAKO INTERPRETAČNÍ NÁSTROJ. Cílem této práce je zodpovědět otázku, zda odlehlost od center, uvažujeme-li spojení vlakovou sítí, vypovídá něco o kvalitě života v dané oblasti, je korelována s vyšším podílem odevzdaných hlasů v Poslanecké Sněmovně pro konkrétní politické subjekty, případně zda v kombinaci s dalšími sociodemografickými parametry XXX dokážeme predikovat výsledky voleb v daném městě. Objektem zkoumání budou středně velká města, která by intuitivně mohla být periferní, konkrétně města s populací nad 10 000 obyvatel (krajská města u většiny případů z analýzy vynecháme, neboť již neodpovídají "přechodu mezi městem a venkovem").
+V českém kontextu se v souvislosti s pojmem periferie často hovoří o příhraniční oblasti Sudety. Používaným termínem je rovněž spojení "vnitřní periferie", který označuje oblasti na hranicích jednotlivých krajů, které jsou vzdálené krajským městům a často vykazují výše popsané fenomény spojované s periferií, neleží však na okraji republiky. Jedná se tedy o jakési "vnitřní Sudety" [@vnitrni_periferie].
 
-Naše hlavní výzkumná otázka bude, zda vzdálenost od center souvisí s volebními výsledky. Tento pojem budeme chápat na více úrovních, nejprve jako krajské město, poté jako jedno ze dvou hlavních ekonomických a kulturních center republiky s populací nad 400 000, tj. Praha nebo Brno. INDEX KVALITY ŽIVOTA NEJVÍCE a NEJMÉNĚ PERIFERNÍCH MĚST
+V souvislosti s loňskými volbami do Poslanecké sněmovně se řada analýz [@babis1],[@seznam] zabývá otázkou, zda periferie vykazují jisté společné znaky co se týče voličských preferencí. Jedna z datových analýz iRozhlasu například popisuje fenomén, kdy hnutí ANO v řadě oblastech vnitřní periferie výrazně posílilo, zatímco (možná poněkud překvapivě) hnutí Stačilo! naopak v těch samých oblastech oslabilo [@babis1].
 
-Prahu budeme chápat v celé analýze jako jedno z krajských měst.
+
+Motivován těmito okolnostmi jsem se rozhodl na téma periferií zaměřit optikou jednoho konkrétního parametru, který se významně podílí na každodenní kvalitě života obyvatel v daném městě - a to sice dostupností veřejné dopravy, konkrétně vlakové dopravy. Železniční síť v Česku představuje zásadní součást dopravní infrastruktury. Na rozdíl od některých jiných zemí EU (např. Francie) je v ČR železniční síť podstatně hustší, je využívána pro dojíždění lidí za prací, vzděláním i službami a propojuje regiony s ekonomickými centry. Z těchto důvodů byla kvalita vlakového spojení vybrána jako hlavní interpretační nástroj. Spíše než prostorová vzdálenost je přitom pro dojíždějící důležitá vzdálenost v čase - proto nás bude zajímat rychlost spojení mezi konkrétními městy.
+
+
+ Cílem této práce je tedy zodpovědět otázku, zda odlehlost menších měst od center, chápána napojením na železniční síť, vypovídá něco o jejich politické orientaci (a okrajově u několika vybraných měst také o socioekonomickém postavení). Konkrétně se budeme zaměřovat na to, zda je odlehlost - měřená časovou dostupností vlakového spojení - korelována s volebními zisky vybraných stran a hnutí ve volbách do Poslanecké sněmovny z října roku 2025.
 
 
 ## Dataset
@@ -34,33 +42,45 @@ Prahu budeme chápat v celé analýze jako jedno z krajských měst.
 
 ### Populační dataset
 
-První část datasetu by měla obsahovat co nejaktuálnější populaci českých měst a obcí. Tomuto zadání odpovídá dataset Českého statistického úřadu (ČSÚ) s počty obyvatel k 1. 1. 2025 [@populace], který jsem převedl z .xls do .csv. 
+První část datasetu by měla obsahovat co nejaktuálnější populaci českých měst a obcí. Tomuto požadavku odpovídá dataset Českého statistického úřadu (ČSÚ) s počty obyvatel k 1. 1. 2025 [@populace], který jsem převedl z formátu .xls do .csv.
 
 ### Vlaková spojení
-Nepodařilo se nám najít dataset, který by obsahoval matici spojení vlakovou dopravou mezi městy ČR - pravděpodobně protože takový dataset neexistuje a bylo by vzhledem k frekvenci výluk a změn v železniční síti obtížné nebo nemožné jej vytvořit.
+Nenalezl jsem dataset, který by obsahoval matici spojení vlakovou dopravou mezi městy ČR - pravděpodobně protože takový dataset neexistuje. Vzhledem k frekvenci výluk a změn v železniční síti by bylo obtížné jej vytvořit.
 
-Rozhodl jsem se tedy tato data sami získat s vědomím toho, že se jedná pouze o snapshot v čase, který brzy může přestat být aktuální. Cílem bylo získat matici aktuálních spojení, kde pro každé z vybraných měst bude zaznamenáno, jak rychle se z něj lze dostat vlakem do všech 13 krajských měst a Prahy.
+Rozhodl jsem se tedy tato data získat s vědomím toho, že se jedná pouze o "snímek" v čase, který brzy přestane být aktuální. Cílem tvorby datasetu bylo získat matici aktuálních spojení, ve které bude pro každé z vybraných měst zaznamenáno, jak rychle se z něj lze dostat vlakem do všech 13 krajských měst a Prahy (nadále pro jednoduchost budeme chápat Prahu jako jedno z krajských měst).
 
-Za účelem extrakce těchto dat jsem použil veřejné API aplikace IDOS, která slouží k vyhledávání spojení veřejnou dopravou [@idosAPI] (spíše než o typické REST API, jaké by si čtenář mohl představit, se jednalo o posílání HTTP requestů na správně sestavenou URL adresu a následné parsování výsledků).
+Za účelem extrakce těchto dat jsem použil veřejné API aplikace IDOS, která slouží k vyhledávání spojení veřejnou dopravou [@idosAPI]. (Spíše než o typické REST API se jedná o posílání HTTP requestů na správně sestavenou URL adresu a následné vlastní parsování výsledků.)
 
-Spojení jsem vyhledával v pracovním dni s datem 1. 12. 2025. Výběr je to do jisté míry náhodný, uvědomujeme si, že bude zatížený aktuálními výlukami a dalšími praktickými okolnostmi, nicméně jiný způsob pokrývající delší časové období by vzhledem k množství vyžadovaných requestů a patřičných intervalech mezi nimi trval neúnosně dlouho. Pro vybraná dvě města jsem porovnal délku všech cest, co se mezi nimi ten den uskutečnily, a vybrali délku té nejkratší.
+Spojení jsem vyhledával pro pracovní den (pondělí) 1. 12. 2025. Výběr je to do jisté míry náhodný, uvědomuji si, že bude zatížený aktuálními výlukami a dalšími praktickými okolnostmi, nicméně jiný způsob pokrývající delší časové období by vzhledem k množství vyžadovaných HTTP requestů a patřičných intervalech mezi nimi trval neúnosně dlouho. Pro vybraná dvě města jsem vždy porovnal délku všech cest, co se mezi nimi ten den uskutečnily, a vybral délku (v minutách) té nejkratší.
 
-Rozhsáhlejší práce by mohla použít komplexnějších metod pro vyhodnocení okrajovosti dané železniční stanice, např. vzít v potaz frekvenci spojů v dané stanici nebo vzít v potaz typ vlaků a rozlišovat malé "osobáky" od "rychlíků". 
+Rozsáhlejší práce by mohla použít komplexnějších metody pro vyhodnocení okrajovosti dané železniční stanice, např. vzít v potaz frekvenci spojů v dané stanici nebo vzít v potaz typ vlaků a rozlišovat "osobáky" od "rychlíků", nebo vlaky regionální a zahraniční. 
 
 ### Volební dataset
-Třetí část datasetu by měla poskytnout výsledky voleb do Poslanecké sněmovny z roku 2025 ve vybraných městech. Za tímto účelem jsem použil další dataset ČSÚ, který poskytuje výslekdy voleb v jednotlivých okrscích a městech [@election]. Spojil jsem data z jednotlivých okrsků a vyparsovali z formátu .xml do .csv. Dataset obsahuje procentuální i absolutní počty odevzdaných hlasů pro 26 kandidujících stran a hnutí.
+Třetí část datasetu by měla poskytnout výsledky voleb do Poslanecké sněmovny z roku 2025 ve vybraných městech. Tomuto požadavku odpovídá další série datasetů ČSÚ, které popisují výsledky voleb v jednotlivých okrscích a městech [@election]. Spojil jsem data z jednotlivých datasetů pro okrsky a vyparsoval data z formátu .xml do .csv. Dataset obsahuje procentuální i absolutní počty odevzdaných hlasů pro 26 kandidujících stran a hnutí.
 
 ### Výsledný dataset
-Jednotlivé datasety jsem poté zkombinoval do jednoho výsledného, a to sice joinem na jménu města. Výsledný dataset tedy obsahuje demografická data, data s vlakovými spojeními a data s výsledky voleb.
+Jednotlivé datasety transformované do formátu .csv jsem poté zkombinoval do výsledného datasetu, a to sice operací JOIN na jménu města. Výsledný dataset tedy obsahuje demografická data, data s vlakovými spojeními a data s výsledky voleb.
 
-Proces tvorby datasetu si zaslouží několik komentářů:
-- jak je známo, jména českých měst a obcí rozhodně nejsou unikátní. Graf XXX TODO XXX ukazuje nečastější opakované výskyty názvů českých měst a obcí. Důležitá je nicméně informace, že v ČR neexistují dvě města nad 10 000 obyvatel, která by měla stejné jméno. V populačním datasetu tedy pro každý název města zachováme pouze to město s nejvíce obyvateli, tím zajistíme unikátnost názvů, nepřijdeme o žádná data pro analýzu a můžeme provést zmíněný join.
-- Dvě města mají ve vlakovém datasetu missing values pro všechna spojení. Těmito městy je Orlová a Jesenice a důvodem je fakt, že ani jedno z těchto dvou měst není součástí železniční sítě. Tento fakt okomentujeme v interpretační části reportu. Z analytické části je vynecháme.
-- Aby šlo pomocí IDOS API vyhledat spojení, přejmenoval jsem město Krupka názvem jeho funčkní železniční stanice Krupka Bohosudov, stejně tak město Hranice na Hranice na Moravě (v opačném případě IDOS nevrací výslekdy).
+Několik komentářů k tvorbě datasetu:
+
+- jména českých měst a obcí nejsou unikátní. Například obce Písek jsou v ČR tři, z toho má jedna 31 tisíc obyvatel (a je tedy pro nás zajímavá). Důležitá je nicméně informace, že v ČR neexistují dvě obce s populací nad 10 000 obyvatel, které by měly stejné jméno. V populačním datasetu tedy odstraníme všechna města s populací pod 10 000, tím zajistíme unikátnost názvů, nepřijdeme o žádná data pro analýzu a můžeme provést zmíněný JOIN.
 - Populační a volební dataset pochází od ČSÚ a tedy jsou ve velmi vysoké kvalitě, nemají žádné chybějící hodnoty a nejsou ani žádným jiným způsobem nekompletní.
+- Dvě města mají ve vlakovém datasetu chybějící data. Těmito městy jsou Orlová a Jesenice v okresu Praha-Západ a důvodem je to, že ani jedno z těchto dvou měst není součástí železniční sítě. Tento fakt okomentuji v interpretační části reportu, prozatím jsem je z datasetu odstranil a nezahrnoval jsem je v analytické části.
+- Aby šlo pomocí IDOS API vyhledat spojení, přejmenoval jsem v datasetech město Krupka názvem jeho funkční železniční stanice Krupka Bohosudov, stejně tak město Hranice na Hranice na Moravě (v opačném případě IDOS nevrací výsledky).
+
 
 #### Popis výsledného datasetu
 
+Ve výsledném datasetu jsou následující sloupce:
+
+- `city_name`: jméno obce (unikátní id), *string*
+- `ZAPSANI_VOLICI`: absolutní počet zapsaných voličů v daném městě, *int*
+- `UCAST_PROC`: procentuální volební účast v daném městě, *float*
+- sloupce s volebními daty: pro každou z 26 stran jeden sloupec s absolutním počet hlasů,`Pi_HLASY`, *int*, a jeden sloupec s relativním výsledek (t.j. procentuální úspěšností v daném okrsku), `Pi_PROC`, *float*.
+- `population`: počet obyvatel v daném městě k roku 2025, *int*
+- 14 sloupců se vzdálenostmi ke krajským městům, *int*:
+
+Výsledný dataset nemá žádné chybějící hodnoty nebo hodnoty špatného datového typu (kromě zmíněné Jesenice a Orlové, které jsem z analýzy vyjmul).
 
 
 
@@ -69,81 +89,224 @@ Proces tvorby datasetu si zaslouží několik komentářů:
 
 ### Vzdálenosti od center a index kvality života
 #### Vzdálenost od krajských měst
-Nejprve se podívejme na to, jak moc jsou vybraná města periferní. Zobrazíme distribuci vzdáleností od nejbližšího krajského města, poté také zobrazíme distribuci vzdáleností od velkých center ČR - Prahy a Brna. 
+Nejprve se podívám na to, jak moc jsou zkoumaná města periferní. Níže zobrazím distribuci vzdáleností od měst jejich nejbližšího krajského města (ze všech 14 krajských měst). Samotná krajská města nyní nezahrnuji. V několika vybraných případech také zkoumám, zda platí, že ve městech, která označuji za vysoce periferní, je naměřena nižší hodnota indexu kvality života projektu Obce v Datech [@index_kvality_zivota] než ve městech, která označuji za neperiferní.
+
+Poznámka: na indexu kvality života se podílí i samotná kvalita železniční dopravy, a tedy je jistá korelace očekávaná. Doprava však zdaleka není jediným faktorem, který do výpočtu indexu vstupuje (metodika je popsána na stránkách projektu). Rozhodně tedy není samozřejmostí, že lepší vlaková doprava nutně znamená vyšší index kvality života.
 
 ![Vzdálenosti od nejbližšího krajského města](plots/distances_histogram.png)
 
-Vidíme, že velká část měst leží ve vzdálenosti od cca 30 do cca 50 minut do nejbližšího krajského města. Část měst je v těsné blízkosti krajskému městu (do cca 15 minut), pravděpodobně jsou součástí větší aglomerace (samotná krajská města nejsou v této grafice zahrnuta). Nezanedbatelná část měst pak leží ve větší vzdálenosti od cca 50 do cca 95 minut - tuto část měst můžeme chápat jako "středně periferní". Jako "vysoce periferní" poté můžeme chápat zbytek měst, které jsou ve vzdálenosti větší než 95 minut od nejbližšího krajského města.
+Z grafu vyplývá, že velká část měst leží ve vzdálenosti od cca 30 do cca 50 minut do nejbližšího krajského města. Část měst je v těsné blízkosti krajskému městu (do cca 15 minut), pravděpodobně jsou součástí větší aglomerace. Nezanedbatelná část měst pak leží ve větší vzdálenosti od cca 50 do cca 95 minut.
 
-Podívejme se na 5 nejvíce periferních měst:
+Seřadil jsem poté města od nejvíce periferních (s nejvyšší vzdáleností ke krajskému městu) k nejméně periferním. Níže uvádím 5 nejvíce periferních měst:
+```{python}
+#| echo: false
+#| warning: false
+#| message: false
 
-![Města s nejvyšší vzdáleností od krajských měst](plots/farthest_cities_table.png)
+import pandas as pd
+import db.static as static
 
-Jeseník, Vrchlabí, Znojmo a Rumburk skutečně odpovídají naší apriorní představě o periferním městu, všechna čtyři tato města leží u samotných hranic v ČR a podíváme-li se na index kvality života projektu Obce v Datech [@index_kvality_zivot], jsou tato města ve spodní stovce z 206. hodnocených měst, ve třech případech z toho v poslední šedesátce. Rakovník se této charakterizaci vymyká, leží ve Středočeském kraji a má vyšší index kvality života. Mohlo by se tedy jednat o kandidáta na "vnitřní periferii", a dle výše citované analýzy na Rakovnicku bodovali ANO a SPD.
+df = pd.read_csv("db/combined_data.csv", encoding="utf-8")
+
+# order the df by the distance to regional cities and drop the regional cities themselves
+df = df[~df["city_name"].isin(static.REGIONAL_CITIES_NAMES)]
+df["distance_minutes"] = df[static.REGIONAL_CITIES_NAMES].min(axis=1).astype(int)
+
+top5 = df.sort_values(by="distance_minutes", ascending=False).head(5)
+# drop all columns except for city name, distance, population and nearest regional city
+top5["nearest_regional_city"] = top5[static.REGIONAL_CITIES_NAMES].idxmin(axis=1)
+
+
+top5 = top5.drop(columns=[col for col in top5.columns if col not in ["city_name", "distance_minutes", "population", "nearest_regional_city"]])
+
+
+top5.style.hide(axis="index")
+```
+
+Jeseník, Vrchlabí, Znojmo a Rumburk skutečně odpovídají mé apriorní představě o periferním městu. Tato čtyři města leží u samotných hranic v ČR, pokud přihlédnu k indexu kvality života, jsou tato města ve spodní stovce z celkových 206 hodnocených měst, ve třech případech dokonce v poslední šedesátce. Rakovník se této charakterizaci vymyká, leží ve Středočeském kraji a má vyšší index kvality života než ostatní čtyři města. Mohlo by se tedy jednat o kandidáta na "vnitřní periferii", která není tolik socioekonomicky postižená. Dodejme, že dle výše citované analýzy iRozhlasu konkrétně na Rakovnicku bodovaly strany ANO a SPD.
 
 Nyní se podívejme na 5 měst nejblíže krajským městům:
-![Města s nejnižší vzdáleností od krajských měst](plots/closest_cities_table.png)
+```{python}
+#| echo: false
+#| warning: false
+#| message: false
 
-Přelouč, Šternberk, a Rokycany mají index kvality života na 81. - 100. místě, zatímco Bohumín v poslední dvacítce. Chodov, malé město s 12. tisíci obyvateli blízko u Karlových Varů, není součástí hodnocení projektu Obce v datech. Tento jev poukazuje na možný nedostatek zvolené metody, a to sice na to, že některá krajská města jako např. Ústí nad Labem, Karlovy Vary, ZLín, nebo i Olomouc a celé Ostravsko, budou v jistém smyslu samy mnohokrát odlehlejší než větší centra ČR. To nás motivuje k náhlednutí na problém jinou optikou, a to sice optikou vzdálenosti ke dvoum výrazným centrům ČR, Praze a Brnu, čímž eliminujeme jev, kdy město blízko Karlových Varů bude označeno za neperiferní.
+df = pd.read_csv("db/combined_data.csv", encoding="utf-8")
+df = df[~df["city_name"].isin(static.REGIONAL_CITIES_NAMES)]
+df["distance_minutes"] = df[static.REGIONAL_CITIES_NAMES].min(axis=1).astype(int)
+
+top5 = df.sort_values(by="distance_minutes", ascending=True).head(5)
+# drop all columns except for city name, distance, population and nearest regional city
+top5["nearest_regional_city"] = top5[static.REGIONAL_CITIES_NAMES].idxmin(axis=1)
+
+
+top5 = top5.drop(columns=[col for col in top5.columns if col not in ["city_name", "distance_minutes", "population", "nearest_regional_city"]])
+
+
+top5.style.hide(axis="index")
+```
+
+Přelouč, Šternberk, a Rokycany se indexem kvality života umisťují na 81. - 100. místě, zatímco Bohumín v poslední dvacítce. Chodov, malé město s 12000 obyvateli blízko u Karlových Varů, není součástí hodnocení projektu Obce v datech.
+
+Tyto výsledky poukazují na možný nedostatek zvolené metody, konkrétně na to, že některá krajská města jako např. Ústí nad Labem, Karlovy Vary, Zlín nebo i Olomouc, budou v jistém smyslu samy podstatně perifernější než ta největší centra ČR. To mě motivuje k náhlednutí na definici odlehlosti mírně odlišnou optikou, a to sice optikou vzdálenosti ke dvěma výrazným centrům ČR - Praze a Brnu. Tím eliminuji jev, kdy město blízko Karlových Varů nebo Ústí nad Labem bude označeno za neperiferní.
+
+Komentář si také zaslouží již zmíněná Jesenice a Orlová - dvě města, kterým schází vlakové spojení, nicméně vypráví velmi odlišný příběh.
+
+Orlová je téměř třicetitisícové město na Karvinsku, které je těžce poznamenané těžbou uhlí a trpí nejvyšší nezaměstnaností v ČR. Jedním z důvodů zrušení vlakové dopravy bylo poddolování půdy a plán na celkovou likvidaci města, ze kterého nakonec sešlo. Orlová je tak nyní největším městem v ČR bez vlakového spojení. V současnosti se uvažuje o zavedení nové linky vlakotramvají mezi Ostravou a Orlovou (na wikipedii k tomu existuje poměrně zajímavá stránka).
+
+Jesenice je v určitých ohledech pravým opakem Orlové. Jedná se o desetitisícovou obec v okrese Praha-Západ s vysokou kvalitou života (jedním z jiných žebříčků označenou za nejlepší místo pro život v ČR ve své populační kategorii), vzdálenou dvacet minut autobusem od zastávky pražského metra. V nadsázce se tak dá říct, že vlaky ani nepotřebuje, neboť se prakticky téměř jedná o součást Prahy.
 
 #### Vzdálenosti od větších center
 
-Podívejme se tedy na distribuci vzdáleností od Prahy a Brna.
+Graf níže zobrazuje distribuci vzdáleností měst od Prahy a Brna. Pro každé město počítám tu menší ze vzdáleností k těmto dvěma centrům.
 ![Vzdálenosti od Prahy a Brna](plots/distances_histogram_centers.png)
 
-Vidíme, že většina vzdáleností se nachází v rozmezí cca 40 - cca 150 minut, a z toho nejvíce kolem 90 minut. 12 měst se nachází ve vzdálenosti 20 až cca 40 minut a zbytek měst se nachází ve vzdálenosti více než 150 minut.
+Většina vzdáleností se nachází v rozmezí cca 40 - cca 150 minut, z toho nejvíce kolem 90 minut. Dvanáct měst se nachází ve vzdálenosti 20 až cca 40 minut a zbytek měst se nachází ve vzdálenosti více než 150 minut.
 
-Nyní se opět podívejme na 5 nejvzdálenějších měst:
-![Města s nejvyšší vzdáleností od center](plots/farthest_cities_table_2.png)
+Nyní se opět zaměřím na 5 nejvzdálenějších měst:
 
-Jediný Chodov se objevil i mezi 5 městy nejvzdálenější od krajských měst. Český Těšín, Hlučín i Krnov se nachejí nedaleko (50 km) od sebe v Moravskoslezském kraji nedaleko hranic s Polskem, jsou v poslední čtyřicítce indexu kvality života a odpovídají tedy představě periferie. Aš má nejzápadnější železniční stanici v ČR a i z hlediska indexu kvality života odpovídá představě periferie.
 
-Nyní k 5 nejbližším městům:
-![Města s nejnižší vzdáleností od center](plots/closest_cities_table_2.png)
+```{python}
+#| echo: false
+#| warning: false
+#| message: false
 
-Říčany, ležící v proximitě Prahy, je v indexu kvality života první. Kuřim čtvrté, Blansko je v druhé dvacítce, obě leží v blízké proximitě Brna. Kladno je v první stovce, zatímco Břeclav až kolem 150. místa.
+df = pd.read_csv("db/combined_data.csv", encoding="utf-8")
+df = df[~df["city_name"].isin(static.REGIONAL_CITIES_NAMES)]
+df["distance_minutes"] = df[static.LARGE_CITIES_NAMES].min(axis=1).astype(int)
 
-Tyto výsledky nám umožňují zformulovat intuici, že optika, která uvažuje vzdálenost k velkým městům a nikoliv městům krajským bude úspěšnější v identifikaci odlehlosti.
+top5 = df.sort_values(by="distance_minutes", ascending=False).head(5)
+# drop all columns except for city name, distance, population and nearest regional city
+top5["nearest_center"] = top5[static.LARGE_CITIES_NAMES].idxmin(axis=1)
 
+
+top5 = top5.drop(columns=[col for col in top5.columns if col not in ["city_name", "distance_minutes", "population", "nearest_center"]])
+
+
+top5.style.hide(axis="index")
+```
+Všimněme si, že Chodov se vyskytl mezi 5 *nejbližšími městy ke svému krajskému městu*. Nyní je naopak čtvrtý nejodlehlejší. Páté místo obsadil Sokolov, město postižené těžbou hnědého uhlí s notoricky nízkou kvalitou života.
+
+Hlučín i Krnov se nacházejí vzdušnou čarou nedaleko (50 km) od sebe v Moravskoslezském kraji blízko hranic s Polskem a jsou v poslední čtyřicítce indexu kvality života. Jsou sice blízko Ostravy, ale daleko od Brna i Prahy, a tak jsou v nové definici odlehlosti označena za periferní. Aš má nejzápadnější železniční stanici v ČR - předtím jsme ji označili za neperiferní kvůli proximitě ke Karlovým Varům, nyní je jedna z nejvzdálenějších. Z hlediska indexu kvality života také odpovídá představě periferie, je v poslední patnáctce.
+
+Nyní uvádím 5 nejbližších měst v této nové definici odlehlosti:
+
+
+
+```{python}
+#| echo: false
+#| warning: false
+#| message: false
+
+df = pd.read_csv("db/combined_data.csv", encoding="utf-8")
+df = df[~df["city_name"].isin(static.REGIONAL_CITIES_NAMES)]
+df["distance_minutes"] = df[static.LARGE_CITIES_NAMES].min(axis=1).astype(int)
+
+top5 = df.sort_values(by="distance_minutes", ascending=True).head(5)
+# drop all columns except for city name, distance, population and nearest regional city
+top5["nearest_center"] = top5[static.LARGE_CITIES_NAMES].idxmin(axis=1)
+
+
+top5 = top5.drop(columns=[col for col in top5.columns if col not in ["city_name", "distance_minutes", "population", "nearest_center"]])
+
+
+top5.style.hide(axis="index")
+```
+
+Říčany, ležící v proximitě Prahy, jsou v indexu kvality života na prvím místě v celé ČR. Kuřim je na čtvrtém, Blansko je v druhé dvacítce, a obě města leží v blízké proximitě Brna. Kladno je v první stovce, zatímco Břeclav až kolem 150. místa.
+
+
+Z dosavadního vzorku lze soudit, že optika, která uvažuje vzdálenost k velkým městům a nikoliv městům krajským, výrazně přesněji identifikuje odlehlost.
 
 
 ### Odlehlost krajských měst
-Další zajímavou otázkou může být, jaké krajské město je nejvíce odlehlé (a jaké naopak nejcentrálnější). Toto slovo budeme chápat ve smyslu průměrné vzdálenosti od zbylých měst, tj. sečteme kumulativní vzdálenost ze všech měst do daného krajského města a vydělíme počtem měst.
+Zajímavou otázkou by rovněž mohlo být, jaké krajské město je nejvíce odlehlé vůči ostatním městům v datasetu (a jaké naopak nejcentrálnější). Za tímto účelem jsem sečetl kumulativní vzdálenost ze všech měst do daného krajského města a vydělil počtem měst - tím jsem získal průměrnou vzdálenost od daného krajského města ke zbytku měst.
 
 ![Průměrná vzdálenost krajských měst ke všem městům](plots/average_distance_ranking_lollipop.png)
 
-Vidíme, že "nejcentrálněji" položené jsou Praha a Pardubice s průměrnou vzdáleností cca 140 minut, což by mohlo odpovídat naší intuici o těchto městech ve středu republiky. Stejně tak nemusí být překvapivé, že Karlovy Vary jsou nejodlehlejším městem s průměrnou vzdáleností pět hodin.
+Graf ukazuje, že "nejcentrálněji" položené jsou Praha a Pardubice s průměrnou vzdáleností cca 140 minut, což odpovídá pozici těchto měst ve středu republiky. Stejně tak nemusí být překvapivé, že Karlovy Vary jsou nejodlehlejším městem s průměrnou vzdáleností pět hodin.
 
-Jako pozoruhodné hodnotíme umístění Ústí nad Labem na 6. pozici. Vysvětlením je pravděpodobně rychlé spojení do Prahy.
+Jako pozoruhodné hodnotím umístění Ústí nad Labem na 6. pozici. Vysvětlením je pravděpodobně rychlé spojení z Ústí do Prahy, odkud je pak spojení nejlepší.
 
-Stejně tak může být překvapivé, že Liberec, navzdory relativní geografické blízkosti Prahy, se umístil na předposledním místě. Přestože je od Prahy vzdálen vzdušnou čarou podobně jako Ústí nad Labem, vlaková doprava v Liberci není příliš hustá a cesta vlakem do Prahy trvá přes dvě hodiny.
+Stejně tak může být překvapivé, že Liberec, navzdory relativní geografické blízkosti Prahy, se umístil na předposledním místě. Přestože je od Prahy Liberec vzdálen vzdušnou čarou podobně daleko jako Ústí nad Labem, vlaková doprava v Liberci není příliš hustá a cesta vlakem do Prahy trvá přes dvě hodiny.
 
 
-### Centralita vs populace
-Mohlo by nás napadnout, zda platí, že menší města jsou více periferní. Podívejme se proto na scatterplot, který zobrazuje vztah mezi populací a vzdáleností města od nejbližšího krajského města.
+### Centralita vs. populace
+Další příhodnou otázkou je, zda menší města jsou více periferní. Zobrazím proto scatterplot, který zobrazuje populaci a vzdálenost města od nejbližšího krajského města.
 
 ![Populace vs vzdálenost od krajského města](plots/population_vs_distance_scatter.png)
-Přestože neexistují velká města, která by byla velmi vzdálená, nedá se tvrdit, že menší města jsou vzdálenější. A to sice proto, že mnoho malých měst jsou blízkým satelitem svého krajského města. 
 
-Podobně nejednoznačný vztah platí i pro vzdálenost od velkých center.
+Je zřejmé, že přestože neexistují velká města (s populací 50 tisíc a více), která by byla velmi vzdálená (více než 60 minut vzdálená od nejbližšího krajského města), nedá se obecně tvrdit, že menší města jsou vzdálenější.
 
-## Modely nad daty: centralita a volby
-Nyní budeme chtít prozkoumat otázku, zda pomocí získaných dat o odlehlosti měst budeme schopni něco říct o výsledcích voleb do Poslanecké sněmovny z roku 2025.
+Jak napovídá scatterplot, důvodem je fakt, že mnoho měst s populací těsně nad 10 000 obyvatel je blízkým satelitem svého krajského města (např. již zmíněný Chodov s cca 12 tisíci obyvateli, který je blízko Karlových Varů). 
 
-Aplikujeme model lineární regrese, kterým budeme predikovat procentuální zisky následujících stran, u kterých také vyslovíme na základě vlastních apriorních znalostí domněnky:
+Podobně nejednoznačný vztah platí i mezi vzdáleností od velkých center a populací.
 
-Pirátská strana - naše očekávání bude takové, že vzhledem ke "kosmopolitnímu" charakteru strany ve velmi odlehlých městech získala málo hlasů.
-SPD - naše očekání bude přesně opačné než u Pirátské strany, budeme očekávat velké zisky v odlehlých a vysoce periferních městech.
-SPOLU, ANO - u obou stran očekáváme menší korelaci než v předchozích dvou případech.Nicméně u SPOLU očekáváme lechce negativní trend (menší zisky v odlehlejších oblastech, oproti Pirátům ovšem vyvažované voliči KDU-ČSL), zatímco u ANO očekáváme lehce pozitivní trend, nicméně ne tak silný jako u SPD.
+## Modely nad daty: odlehlost vs. výsledky voleb
+Nyní se budu věnovat hlavní výzkumné otázce reportu. Budu zkoumat, zda pomocí získaných dat o odlehlosti měst budu schopen něco vyslovit o výsledcích voleb do Poslanecké sněmovny z roku 2025 (zahrnuta jsou opět pouze města s populací nad 10000).
 
-Začněme nejprve s první definicí vzdálenosti, která bere potaz krajská města, víme již nicméně, že může v některých ohledech nefungovat (vzhledem tomu, že krajská města sama leckdy vykazují znaky periferního města), a proto očekáváme, že povede k horším výsledkům než druhé pojetí vzdálenosti.
+Za tímto účelem aplikuji model lineární regrese, kterým budu zkoušet predikovat procentuální zisky vybraných stran. Prediktivní proměnnou bude právě odlehlost - nejprve vzdálenost od nejbližšího krajského města, poté od velkého centra (Prahy či Brna).
 
+### Vybrané strany
 
-
+Jako předmět zkoumání jsem vybral následující politické subjekty:
 
 
+1. ***Pirátská strana*** (reálný zisk: 8.97 %) - mé očekávání bude, že vzhledem ke "kosmopolitnímu" charakteru strany Piráti ve velmi odlehlých městech získali méně hlasů než v přilehlejších městech.
+2. ***SPD*** (reálný zisk: 7.78 %) - mé očekávání bude přesně opačné než u Pirátské strany, budu tedy očekávat velké zisky v odlehlých a vysoce periferních městech.
+3. ***ANO*** (reálný zisk: 34.51 %) - podobně jako u SPD očekávám pozitivní vliv, t.j. větší odlehlost bude spojena s vyššími zisky.
+4. ***SPOLU*** (reálný zisk: 23.36 %) - očekávám obecně menší vliv odlehlosti na volební zisky.
+
+### Odlehlost od krajských měst a výsledky voleb
+
+Začnu nejprve s první definicí odlehlosti, která bere v potaz vzdálenost od nejbližšího krajského města. Již jsem nicméně poukázal na fakt, že toto pojetí může v některých ohledech být nepřesné (vzhledem k tomu, že krajská města sama leckdy vykazují znaky periferního města, např. dříve zmíněný Chodov). Proto očekávám, že povede k horším výsledkům než druhé pojetí vzdálenosti, které pracuje se vzdáleností od Prahy a Brna.
+
+Pro každou ze čtyř stran: 
+
+- Rozdělím data v poměru 80:20 na train-test split
+- Natrénuji model na train setu
+- Vyhodnotím model na test setu
+- Interpretuji výsledek
+
+Pro vyhodnocení predikční síly regresního modelu jsem použil následující metriky: R2 (Coefficient of Determination) na train setu, R2 na test setu, MAE (Mean absolute error) a RMSE (Root mean square error) na test setu.
+
+Výsledky metrik popisujících sílu prvního modelu (predikující na základě vzdálenosti od krajských měst) jsou následující:
+
+![Vyhodnocení prvního modelu](plots/eval1.png)
+
+Hodnota R2 na test setu je ve všech čtyřech případech záporná, to znamená, že model nemá žádnou prediktivní sílu. MAE v našem případě vyjadřuje, jak velká je průměrná chyba v procentech vůči reálnému výsledku v daném městě. Mohlo by se zdát, že hodnota MAE okolo jednoho procenta v případech SPD a Pirátské strany není špatná - kdyby se ale jako predikce pokaždé použila pouze průměrná hodnotu z train setu, povede to k lepšímu výsledku (právě tento fakt vyjadřuje negativní hodnota R2). Nesedí navíc ani odhadované trendy u jednotlivých stran (vyjma velmi slabého negativního trendu ve výsledcích Pirátské strany).
+
+### Odlehlost od center a výsledky voleb
+
+Nyní zkusím aplikovat totožný postup s druhou definicí odlehlosti, která pracuje se vzdáleností od velkých center.
+
+![Vyhodnocení druhého modelu](plots/eval2.png)
+
+Hodnoty R2 na train setu jsou ve všech 4 případech větší než 0.14. V případě SPOLU a SPD je hodnota R2 na test setu menší (okolo 0.08), tedy u těchto stran vysvětluje vzdálenost od center pouze osmiprocentní rozptyl v datech. Přestože se tak jedná o slabý efekt, není zcela zanedbatelný. Trend (slope) je pro tyto dvě strany v souladu s našimi očekáváními. V případě SPD odpovídá v průměru každých dalších 100 minut vzdálenosti navíc zisku jednoho procentního bodu, a u SPOLU naopak ztrátě 3.6 %. Lze spekulovat o tom, že u SPOLU není negativní trend tak silný kvůli voličům KDU-ČSL, kteří se historicky nacházeli spíše ve venkovských sídlech.
+
+U ANO je hodnota R2 na test setu 0.22, dá se tedy mluvit o znatelném efektu vzdálenosti na počet hlasů. Trend je dle očekávání pozitivní. Na každých 100 minut vzdálenosti navíc připadá zisk 5.4 % hlasů. I tak pravděpodobně není model použitelný vzhledem k vysoké hodnotě MAE rovné 4.7 a ještě vyšší hodnotě RMSE (ta více penalizuje outliery).
+
+Nejlépe model funguje u Pirátské strany, kde metrika R2 na test setu nabývá hodnoty 0.32. Jinými slovy, dá se konstatovat, že odlehlost v našem jednoduchém modelu vysvětluje 32 % rozptylu ve volebních ziscích Pirátů, a lze tak mluvit o silném efektu odlehlosti na výsledek voleb. Hodnoty MAE a RMSE jsou navíc znatelně menší než u ANO (1.04 a 1.28). Toto zlepšení může částečně vysvětlovat i fakt, že zisky ANO jsou podstatně více rozptýleny - jejich směrodatná odchylka je 6.7, zatímco u Pirátů 1.4. (Rozdíly ve výsledcích ANO napříč městy jsou skutečně extrémní: v Karviné získalo hnutí Andreje Babiše téměř 60 %, zatímco v Říčanech 19.7 %.)
+
+Pro kompletní obrázek o vztahu mezi vzdáleností a výsledky voleb přidávám vizualizace s výsledným modelem a daty pro Piráty a ANO, jimž jsem se věnoval nejdůkladněji. Města v train a test setu jsou rozlišena barvou.
+
+![Výsledný model pro ANO](plots/ano.png)
+
+![Výsledný model pro Piráty](plots/pirati.png)
 
 
-Závěr: ANOVA, Multilinear regression: populace, volební účast, centralita 1 a 2, average age PŘIDAT, Průměrný plat??, 14 dummy variables
+## Závěr
 
-?? Ty hezký ploty s republikou??
+Cílem tohoto reportu bylo prozkoumat, zda lze pojem "periferie" v českém kontextu smysluplně popsat pomocí časové dostupnosti vlakové dopravy mezi vybranými městy. Výzkumnou otázkou bylo, zda takto chápaná odlehlost souvisí s volebními výsledky ve volbách do Poslanecké sněmovny v roce 2025.
+
+Zkonstruoval jsem proto dataset pro česká města nad 10 000 obyvatel, který kombinuje: 1. populační dataset ČSÚ, 2. výsledky voleb od ČSÚ a 3. matici cestovních časů mezi městy získanou z aplikace na vyhledávání spojení IDOS pro konkrétní pracovní den.
+
+V části exploraci dat jsem nejprve zkoumal perifernost měst dvěma způsoby: 1. vzdáleností od nejbližšího krajského města a 2. vzdáleností od dvou hlavních center, Prahy a Brna. Ukázalo se, že první definice může být zavádějící: města v těsné blízkosti krajských center, která sama vykazují periferní znaky, mohou být tímto měřítkem označena za neperiferní, přestože jejich celková odlehlost od faktických center zůstává vysoká. Druhá definice (používající vzdálenost k Praze a Brnu) se naopak ukázala jako přesnější pro aproximaci intuitivně chápané perifernosti, související například s indexem kvality života, který jsme u několika vybraných měst okomentovali. Tato druhá definice odlehlost lépe odlišuje například města na hranicích republiky jako je např. Aš, Chodov, nebo Sokolov.
+
+V modelovací části jsem poté testoval, zda odlehlost souvisí s volebními zisky vybraných politických stran a hnutí. Pomocí jednoduché lineární regrese jsem modeloval procentuální zisky stran Piráti, SPD, ANO a SPOLU. Výsledky ukázaly, že pokud je perifernost definována jako vzdálenost od nejbližšího krajského města, modely víceméně selhávají: hodnoty R2 na testovacích datech jsou záporné, tedy horší než predikce pomocí průměru. Tento výsledek potvrzuje, že první definice odlehlosti není pro vysvětlení volebních výsledků a obecně perifernosti vhodná.
+
+Při použití druhé definice (vzdálenost od Prahy a Brna) se však objevují nezanedbatelné trendy. U Pirátů je vztah mezi odlehlostí a volebními zisky výrazně negativní a model vykazuje poměrně silnou vysvětlovací schopnost. U ANO je vztah naopak pozitivní a efekt je o něco slabší. Velikost predikční chyby zůstává poměrně vysoká, což naznačuje, že samotná odlehlost, jak jsem ji definoval, nedokáže zachytit lokální rozdíly. U SPD a SPOLU se objevují trendy odpovídající očekávání (zisky SPD rostou s odlehlostí, zisky SPOLU klesají), ale efekt je podstatně slabší.
+
+Celkově tedy v reportu ukazuji, že mezi odlehlostí českých menších měst od hlavních center a volebními zisky vybraných stran existuje měřitelný vztah, který je nejsilnější u Pirátů a patrný také u ANO. Zároveň platí, že odlehlost sama o sobě nemůže sloužit jako dostatečné vysvětlení volebních výsledků a nedá se použít jako spolehlivý predikční model. Pravděpodobně hraje stejně tak silnou nebo silnější roli celá řada dalších socioekonomických faktorů (výše příjmů, vzdělání, demografie). Případné pokračování této práce by mohlo zahrnout i tyto další faktory pro stanovení míry odlehlosti.
+
+Zároveň by budoucí práce mohla robustněji zachytit kvalitu spojení mezi městy, ať už zahrnutím i autobusové nebo automobilové dostupnosti, nebo zahrnutím frekvence vlakových spojů, penalizací přestupů, atp. To by mohlo umožnit přesněji kvantifikovat, jak souvisí odlehlost měst s jejich socioekonomickým postavením.

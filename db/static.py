@@ -19,7 +19,6 @@ REGIONAL_CITIES_NAMES = [
 LARGE_CITIES_NAMES = [
     "Praha",
     "Brno",
-    "ostrava"
 ]
 
 CAPITAL = "Praha"
